@@ -13,6 +13,7 @@
 | [ugv_ws](https://github.com/BoomBoomFly/ugv_ws) | ROS 2 地面机器人子系统独立工作区镜像，包含 BX72 小车、ACG720 六足接入、FPGA 网关、SLAM/Nav2 与视觉跟踪。 |
 | [swarm_ws](https://github.com/BoomBoomFly/swarm_ws) | 异构多机器人协同子系统独立工作区镜像，包含 AprilGrid 跨机对齐、地图融合与协同调度。 |
 | [FPGA](https://github.com/BoomBoomFly/FPGA) | 高云 FPGA 板级工程（BX72 138K、ACG720 60K）及去板卡特化的 RTL/裸机算法参考库。 |
+| [mcu](https://github.com/BoomBoomFly/mcu) | 下位机 MCU 固件镜像，按 `boards/` 与 `libs/` 组织，包含芯片无关的 C99 控制与状态估计参考算法库（PID、LADRC、LQR、SMC、2D EKF）。 |
 
 日常研发以主仓库 [BoomBoomFly](https://github.com/BoomBoomFly/BoomBoomFly) 为主线，构建与多边缘平台部署方式见主仓库 README。
 
